@@ -3,8 +3,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-CREATE DATABASE demo;
-
 CREATE TABLE `students` (
   `admin_no` varchar(5) NOT NULL,
   `name` varchar(50) NOT NULL,
