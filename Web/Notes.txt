@@ -1,0 +1,37 @@
+WebPage
+Level -> School purpose
+Users -> Teachers & Students & Admin
+Theme -> Inform the HW
+
+user  =  0001
+pass = Admin
+
+admin -> Handling the Events
+teachers -> Handling the Homeworks to students
+students -> Only showcase not able to edit
+
+Able to change password for all type of users
+
+phpmyadmin -> localhost/phpmyadmin/
+login -> localhost/web/login.php
+signin -> localhost/web/signin.php
+
+Instruction to setup:
+
+step 1:
+	Create a database in phpmyadmin as 'student_db'.And drag the sql file and drop it in phpmyadmin in broswer.
+
+step 2:
+	place the file in htdocs in xampp for running the php files of 'login', 'signin'.
+
+Important:
+
+	create a Teacher Account.  To avoid the 'file not found error'.  Because certain Student Accounts are belongs to one Teacher Account by name of class and section.
+
+
+Note:
+
+	Signin  page will be handled by Admin.  Every Student and Teacher Account will be created by Admin
+	Login page will be handled by All Users (students,Teachers,Admin)
+
+
