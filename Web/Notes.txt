@@ -12,6 +12,8 @@ students -> Only showcase not able to edit
 
 Able to change password for all type of users
 
+while creating account, password of user is addmission_number as default. But later we can change.
+
 phpmyadmin -> localhost/phpmyadmin/
 login -> localhost/web/login.php
 signin -> localhost/web/signin.php
